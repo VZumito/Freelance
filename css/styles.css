@@ -269,6 +269,34 @@
             margin-bottom: 0.5rem;
         }
 
+        .tabla {
+            border-collapse: collapse;
+            margin: 5px;
+            min-width: 400px;
+            width: 100%;
+            
+        }
+
+        .tabla th, .tabla td {
+            padding: 12px 15px;
+        }
+
+        .tabla tbody tr {
+            border-bottom: 1px solid var(--secundario);
+        }
+
+        .tabla thead {
+            background-color: var(--secundario);
+            color: var(--blanco);
+        }
+
+        .tabla a {
+            text-decoration: none;
+            color: var(--secundario);
+        }
+
+        
+
         
         
         
